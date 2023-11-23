@@ -4,3 +4,100 @@
     box-sizing: border-box;
 }
 
+main {
+    background: var(--Primary-color, #1D1932);;
+}
+
+nav {
+    display: flex;
+    width: 1900px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+    margin-top: 50px
+}
+
+a {
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* 120% */
+    letter-spacing: 2.8px;
+    color: #ffff;
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    width: 266px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+    font-family: Kanit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    letter-spacing: 0.4px;
+    color: #ffff;
+}
+
+.btn {
+    display: flex;
+    width: 485px;
+    align-items: center;
+    gap: 24px;
+    flex-shrink: 0;
+    text-align: center;
+    font-family: Kanit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    letter-spacing: 0.4px;
+}
+
+#contact {
+    display: flex;
+    width: 150px;
+    height: 40px;
+    padding-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: #6F4FF2;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Kanit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    letter-spacing: 0.4px;
+    color: #ffff;
+}
+
+#connect {
+    display: flex;
+    width: 150px;
+    height: 40px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    text-align: center;
+    font-family: Kanit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    letter-spacing: 0.4px;
+    color: #ffff;
+    border-radius: 5px;
+    background: rgb(255,56,56);
+    background: linear-gradient(90deg, rgba(255,56,56,1) 0%, rgba(111,79,242,1) 100%);
+    border: 1px solid linear-gradient(90deg, rgba(255,56,56,1) 0%, rgba(111,79,242,1) 100%);
+}
