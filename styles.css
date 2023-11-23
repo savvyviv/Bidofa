@@ -101,3 +101,28 @@ a {
     background: linear-gradient(90deg, rgba(255,56,56,1) 0%, rgba(111,79,242,1) 100%);
     border: 1px solid linear-gradient(90deg, rgba(255,56,56,1) 0%, rgba(111,79,242,1) 100%);
 }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 220px;
+}
+
+.hero{
+    padding-left: 40px;
+    font-family: Arial;
+    margin-top: 100px;
+}
+
+.hero > h4{
+    font-family: Orbitron;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px; /* 111.111% */
+    letter-spacing: 1.44px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.3;
+}
