@@ -1,0 +1,26 @@
+.footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+}
+
+
+.horizontal {
+    padding-top: 30px;
+}
+
+.footer_items {
+    padding-top: 10px;
+}
+
+.items {
+    display: inline;
+}
+
+.policy {
+    padding-left: 30px;
+}
+
+.terms {
+    padding-left: 190px;
+}
