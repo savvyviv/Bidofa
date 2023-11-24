@@ -1,0 +1,75 @@
+.hero_image{
+    width: 569px;
+    height: 499px;
+    flex-shrink: 0;
+}
+
+.navbar {
+    display: inline-block
+}
+
+.main_nav {
+    display: inline-block;
+    align-items: center;
+}
+
+.main_nav_header {
+    display: inline-block;
+    width: 209px;
+    height: 42px;
+    flex-shrink: 0;
+    /*color: var(--Text-color, #FFF);*/
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 2.8px;
+}
+
+.main_nav_item {
+    display: inline-flex;
+    width: 150px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-right: 20px;
+    font-size: 23px;
+    padding-top: 20px;
+}
+
+.button1 {
+    display: inline-block;
+    width: 229px;
+    height: 57px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+    font-size: 23px;
+    margin-left: 100px;
+    margin-left: 170px;
+   /* letter-spacing: 2.8px;*/
+  
+}
+
+.button2 {
+    display: flex;
+    width: 229px;
+    height: 57px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    font-size: 23px;
+    margin-left: 80px;
+    
+}
+
+.header_title {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.btn {
+    margin-left: 40px;
+    margin-top: 200px;
+}
+
