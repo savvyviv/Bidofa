@@ -29,6 +29,7 @@ function Navbar() {
                 <h1>Marketplace</h1>
             </div>
         </header>
+        
         <div className="btn_group">
           <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
             All Categories
