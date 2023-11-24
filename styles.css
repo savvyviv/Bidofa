@@ -16,7 +16,7 @@ nav {
     margin-top: 50px
 }
 
-a {
+h1>a {
     font-family: Poppins;
     font-size: 40px;
     font-style: normal;
@@ -28,20 +28,22 @@ a {
     padding-left: 44px;
 }
 
-.list {
+.list, a {
     list-style: none;
     display: flex;
-    width: 266px;
+    gap: 50px;
     justify-content: space-between;
     align-items: flex-start;
     flex-shrink: 0;
+    color: white;
     font-family: Kanit;
-    font-size: 20px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 400;
     line-height: 28px; /* 140% */
     letter-spacing: 0.4px;
-    color: #ffff;
+    text-decoration: none;
+
 }
 
 .btn {
@@ -86,7 +88,7 @@ a {
     display: flex;
     width: 150px;
     height: 40px;
-    padding: 8px;
+    padding: 2px;
     justify-content: center;
     align-items: center;
     gap: 8px;
@@ -101,14 +103,13 @@ a {
     color: #ffff;
     cursor: pointer;
     border-radius: 5px;
-    background: rgb(255,56,56);
     background: linear-gradient(90deg, rgba(255,56,56,1) 0%, rgba(111,79,242,1) 100%);
     border: 1px solid linear-gradient(90deg, rgba(255,56,56,1) 0%, rgba(111,79,242,1) 100%);
 }
 
 .container {
     display: flex;
-    width: 1900px;
+    width: 1800px;
     justify-content: space-between;
     align-items: center;
     padding: 30px 40px;
@@ -117,7 +118,8 @@ a {
 .hero{
     padding-left: 40px;
     font-family: Arial;
-    margin-top: 100px;
+    margin-top: 80px;
+    margin-bottom: 50px;
 }
 
 .hero > h4{
@@ -131,8 +133,9 @@ a {
     margin-bottom: 50px;
 }
 
-span {
-    color: rgba(255,56,56,1) 0%, rgba(111,79,242,1);
+.digital {
+    color: rgb(255,56,56);
+    color: linear-gradient(90deg, rgba(255,56,56,1) 0%, rgba(111,79,242,1) 100%);
 }
 
 .hero> p { 
@@ -215,4 +218,91 @@ span {
     flex-shrink: 0;
     border-radius: 24px;
 }
+
+.section1 {
+    background-color: #3C3560;
+    align-items: center;
+    text-align: center;
+}
+
+.meta {
+    display: flex;
+    gap: 100px;
+    padding-left: 300px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.image >img {
+    width: 100px;
+    height: 92.706px;
+    flex-shrink: 0;
+}
+
+.image >p {
+    color: #FFF;
+    text-align: center;
+    font-family: Orbitron;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 125% */
+    letter-spacing: 0.64px;
+}
+
+.comm {
+    background-color: #1D1932;
+    justify-content: center;
+    align-items: center;
+}
+    
+
+.comm >h3 {
+    color: #FFF;
+    font-family: Orbitron;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: 0.96px;
+}
+.comm >p {
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Kanit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 200% */
+    letter-spacing: 0.36px;
+}
+
+.discord {
+    width: 229px;
+    height: 57px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    flex: 1 0 0;
+    color: #FFF;
+    background-color: #6F4FF2;
+    text-align: center; 
+    font-family: Kanit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    letter-spacing: 0.4px;
+    border-radius: 5px;
+}
+
+
+
+
 
