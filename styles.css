@@ -228,7 +228,8 @@ h1>a {
 .meta {
     display: flex;
     gap: 100px;
-    padding-left: 300px;
+    justify-content: center;
+   
 }
 
 .image {
@@ -236,6 +237,7 @@ h1>a {
     justify-content: center;
     align-items: center;
     gap: 20px;
+    margin-top: 50px;
 }
 
 .image >img {
@@ -253,6 +255,36 @@ h1>a {
     font-weight: 700;
     line-height: 40px; /* 125% */
     letter-spacing: 0.64px;
+}
+
+.sellers {
+    display: flex;
+    width: 1238px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.learn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 104px;
+    width: 100%;
+    height: 553px;
+    flex-shrink: 0;
+    background-color: #3C3560;
+}
+
+#learn >h3{
+    width: 549px;
+    color: #FFF;
+    font-family: Orbitron;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: 0.96px;
 }
 
 #section {
