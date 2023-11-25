@@ -1,3 +1,10 @@
+/*.header_content {
+    background: var(--Primary-color, #1D1932);
+    width: 1440px;
+    height: 401px;
+    flex-shrink: 0;
+}*/
+
 .hero_image{
     width: 569px;
     height: 499px;
@@ -11,7 +18,10 @@
 .main_nav {
     display: inline-block;
     align-items: center;
+    background: var(--Primary-color, #1D1932);
+    width: 1440px;
 }
+
 
 .main_nav_header {
     display: inline-block;
@@ -35,6 +45,7 @@
     margin-right: 20px;
     font-size: 23px;
     padding-top: 20px;
+    color: white;
 }
 
 .button1 {
@@ -66,10 +77,24 @@
 .header_title {
     text-align: center;
     padding-top: 100px;
+    background: var(--Primary-color, #1D1932);
+    width: 1440px;
+    height: 600px;
+    color: white;
 }
 
 .btn {
     margin-left: 40px;
-    margin-top: 200px;
+    margin-top: 40px;
 }
 
+.vector {
+    transform: rotateX('30deg');
+    
+}
+
+/*.super_container {
+    background: linear-gradient(166deg, #6F4FF2 2.18%, #43328C 14.73%, #2D2357 51.85%, #1D1932 98.5%);
+    width: 1440px;
+    height: 2754px;
+}*/

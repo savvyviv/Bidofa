@@ -4,7 +4,17 @@ import './Categories.css';
 const Categories = () => {
   return (
     <>
-      <div classNmae="container">
+      <section className="about py-5 my-5">
+        <div class="section">
+        <div className="btn_group">
+          <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            All Categories
+          </button>
+          <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            All items
+          </button>
+        </div>
+
         <div className="row">
             <div className="col-lg-3">
               <div class="card">
@@ -340,7 +350,8 @@ const Categories = () => {
               </div>
             </div>
         </div>
-      </div>
+        </div>
+      </section>
     </>
   )
 }
