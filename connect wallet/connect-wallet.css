@@ -1,7 +1,12 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-image: url(assets/homepage.svg);
     background-size: cover;
-    box-sizing: border-box;
 }
 
 
