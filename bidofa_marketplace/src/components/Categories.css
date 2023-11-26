@@ -1,0 +1,45 @@
+.section {
+    background: linear-gradient(166deg, #6F4FF2 2.18%, #43328C 14.73%, #2D2357 51.85%, #1D1932 98.5%);
+    height: 2100px;
+    padding-left: 0;
+}
+
+.card {
+    width: 316px;
+    height: 580px;
+    margin-top: 80px;
+    margin-left: 25px;
+    background-color: rgba(255, 255, 255, 0.15)
+}
+
+.card_img_top {
+    width: 282px;
+    height: 310px;
+}
+
+.card-body {
+    color: white;
+}
+
+.img-avatar {
+    height: 68px;
+    width: 68px;
+    border-radius: 68px;
+}
+
+.img {
+    width: 100%;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
