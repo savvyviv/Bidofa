@@ -257,12 +257,62 @@ h1>a {
     letter-spacing: 0.64px;
 }
 
+.top{
+    background: #1D1932;
+    
+}
+
+.top >h3{
+    text-align: center;
+    font-family: Orbitron;
+    font-size: 48px;
+    color: #FFF;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: 0.96px;
+    margin-bottom: 50px;
+}
+
 .sellers {
     display: flex;
     width: 1238px;
     align-items: center;
-    justify-content: center;
     gap: 20px;
+    justify-content: center;
+    margin-left: 250px;
+}
+
+.seller1 {
+    display: flex;
+    width: 1240px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 250px;
+}
+
+.text {
+    text-align: center;
+    font-family: Kanit;
+    font-size: 20px;
+    color: #FFF;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    letter-spacing: 0.4px;
+}
+
+.price {
+    height: 36px;
+    flex: 1 0 0;
+    text-align: center;
+    font-family: Kanit;
+    font-size: 18px;
+    font-style: normal;
+    color: #FFF;
+    font-weight: 600;
+    line-height: 36px; /* 200% */
+    letter-spacing: 0.36px;
 }
 
 .learn {
