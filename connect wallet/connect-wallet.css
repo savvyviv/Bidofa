@@ -1,6 +1,7 @@
 body {
     background-image: url(assets/homepage.svg);
     background-size: cover;
+    box-sizing: border-box;
 }
 
 
@@ -117,7 +118,10 @@ h1>a {
 
 
 .connect-wallet {
+    width: 100%;
+    height: 200px;
     display: flex;
+    align-items: stretch;
 }
 
 .connect {
@@ -127,7 +131,7 @@ h1>a {
     position: absolute;
     bottom: 8px;
     left: 16px;
-    margin-bottom: -200px;
+    margin-bottom: -350px;
     margin-left: 100px;
 }
 
