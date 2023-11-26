@@ -14,7 +14,8 @@ const Footer = () => {
         <div className="row">
             <div className="col-lg-3">
                 <h1>BIDOFA</h1>
-                <p>An exclusive Hub and Marketplaceto exhibit various Digital assets</p>
+                <p>An exclusive Hub and Marketplace
+                  <br />to exhibit various Digital assets</p>
             </div>
             <div className="col-lg-3"> 
               <h6>Explore</h6>

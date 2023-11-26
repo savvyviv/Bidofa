@@ -4,18 +4,17 @@ import './Categories.css';
 const Categories = () => {
   return (
     <>
-      <section className="about py-5 my-5">
+      <div className="about">
         <div class="section">
-        <div className="btn_group">
-          <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-            All Categories
-          </button>
-          <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-            All items
-          </button>
-        </div>
-
         <div className="row">
+            <div>
+              <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              All Categories
+              </button>
+              <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              All items
+             </button>
+            </div>
             <div className="col-lg-3">
               <div class="card">
                 <img src="../images/cloudy.png" class="card-img-top" alt="cloudy_face"/>
@@ -25,17 +24,17 @@ const Categories = () => {
                      <img className="img-avatar" src="../images/John.png" alt="john"/>
                      <div className="row">
                         <div className="column">
-                         <div>
-                           <h6><b>Created by</b></h6>
+                         <div className="text">
+                           <p>Created by</p>
                            <h6>John Wick</h6>
-                           <button type="button" className="btn1 btn-primary">Primary</button>
+                           <img src="../images/place.png" alt="place bid"/>
                           </div>
                         </div>
                         <div className="column">
                           <div>
-                            <h6>Current bid</h6>
+                            <p>Current bid</p>
                             <h6>5.83ETH</h6>
-                            <button type="button" className="btn1 btn-primary">View history</button>
+                            <p>View history</p>
                           </div> 
                         </div>
                       </div>
@@ -54,16 +53,16 @@ const Categories = () => {
                      <div className="row">
                         <div className="column">
                          <div>
-                           <h6><b>Created by</b></h6>
+                           <p>Created by</p>
                            <h6>John Wick</h6>
-                           <button type="button" className="btn1 btn-primary">Primary</button>
+                           <img src="../images/place.png" alt="place bid"/>
                           </div>
                         </div>
                         <div className="column">
                           <div>
-                            <h6>Current bid</h6>
+                            <p>Current bid</p>
                             <h6>5.83ETH</h6>
-                            <button type="button" className="btn1 btn-primary">View history</button>
+                            <p>View history</p>
                           </div> 
                         </div>
                       </div>
@@ -82,16 +81,16 @@ const Categories = () => {
                      <div className="row">
                         <div className="column">
                          <div>
-                           <h6><b>Created by</b></h6>
+                           <p>Created by</p>
                            <h6>John Wick</h6>
-                           <button type="button" className="btn1 btn-primary">Primary</button>
+                           <img src="../images/place.png" alt="place bid"/>
                           </div>
                         </div>
                         <div className="column">
                           <div>
-                            <h6>Current bid</h6>
+                            <p>Current bid</p>
                             <h6>5.83ETH</h6>
-                            <button type="button" className="btn1 btn-primary">View history</button>
+                            <p>View history</p>
                           </div> 
                         </div>
                       </div>
@@ -110,16 +109,16 @@ const Categories = () => {
                      <div className="row">
                         <div className="column">
                          <div>
-                           <h6><b>Created by</b></h6>
+                           <p>Created by</p>
                            <h6>John Wick</h6>
-                           <button type="button" className="btn1 btn-primary">Primary</button>
+                           <img src="../images/place.png" alt="place bid"/>
                           </div>
                         </div>
                         <div className="column">
                           <div>
-                            <h6>Current bid</h6>
+                            <p>Current bid</p>
                             <h6>5.83ETH</h6>
-                            <button type="button" className="btn1 btn-primary">View history</button>
+                            <p>View history</p>
                           </div> 
                         </div>
                       </div>
@@ -138,16 +137,16 @@ const Categories = () => {
                      <div className="row">
                         <div className="column">
                          <div>
-                           <h6><b>Created by</b></h6>
+                           <p>Created by</p>
                            <h6>John Wick</h6>
-                           <button type="button" className="btn1 btn-primary">Primary</button>
+                           <img src="../images/place.png" alt="place bid"/>
                           </div>
                         </div>
                         <div className="column">
                           <div>
-                            <h6>Current bid</h6>
+                            <p>Current bid</p>
                             <h6>5.83ETH</h6>
-                            <button type="button" className="btn1 btn-primary">View history</button>
+                            <p>View history</p>
                           </div> 
                         </div>
                       </div>
@@ -166,16 +165,16 @@ const Categories = () => {
                      <div className="row">
                         <div className="column">
                          <div>
-                           <h6><b>Created by</b></h6>
+                           <p>Created by</p>
                            <h6>John Wick</h6>
-                           <button type="button" className="btn1 btn-primary">Primary</button>
+                           <img src="../images/place.png" alt="place bid"/>
                           </div>
                         </div>
                         <div className="column">
                           <div>
-                            <h6>Current bid</h6>
+                            <p>Current bid</p>
                             <h6>5.83ETH</h6>
-                            <button type="button" className="btn1 btn-primary">View history</button>
+                            <p>View history</p>
                           </div> 
                         </div>
                       </div>
@@ -194,16 +193,16 @@ const Categories = () => {
                      <div className="row">
                         <div className="column">
                          <div>
-                           <h6><b>Created by</b></h6>
+                           <p>Created by</p>
                            <h6>John Wick</h6>
-                           <button type="button" className="btn1 btn-primary">Primary</button>
+                           <img src="../images/place.png" alt="place bid"/>
                           </div>
                         </div>
                         <div className="column">
                           <div>
-                            <h6>Current bid</h6>
+                            <p>Current bid</p>
                             <h6>5.83ETH</h6>
-                            <button type="button" className="btn1 btn-primary">View history</button>
+                            <p>View history</p>
                           </div> 
                         </div>
                       </div>
@@ -222,16 +221,16 @@ const Categories = () => {
                      <div className="row">
                         <div className="column">
                          <div>
-                           <h6><b>Created by</b></h6>
+                           <p>Created by</p>
                            <h6>John Wick</h6>
-                           <button type="button" className="btn1 btn-primary">Primary</button>
+                           <img src="../images/place.png" alt="place bid"/>
                           </div>
                         </div>
                         <div className="column">
                           <div>
-                            <h6>Current bid</h6>
+                            <p>Current bid</p>
                             <h6>5.83ETH</h6>
-                            <button type="button" className="btn1 btn-primary">View history</button>
+                            <p>View history</p>
                           </div> 
                         </div>
                       </div>
@@ -250,16 +249,16 @@ const Categories = () => {
                      <div className="row">
                         <div className="column">
                          <div>
-                           <h6><b>Created by</b></h6>
+                           <p>Created by</p>
                            <h6>John Wick</h6>
-                           <button type="button" className="btn1 btn-primary">Primary</button>
+                           <img src="../images/place.png" alt="place bid"/>
                           </div>
                         </div>
                         <div className="column">
                           <div>
-                            <h6>Current bid</h6>
+                            <p>Current bid</p>
                             <h6>5.83ETH</h6>
-                            <button type="button" className="btn1 btn-primary">View history</button>
+                            <p>View history</p>
                           </div> 
                         </div>
                       </div>
@@ -267,6 +266,7 @@ const Categories = () => {
                 </div>
               </div>
             </div>
+
             <div className="col-lg-3">
               <div class="card">
                 <img src="../images/man.png" class="card-img-top" alt="cloudy_face"/>
@@ -277,16 +277,16 @@ const Categories = () => {
                      <div className="row">
                         <div className="column">
                          <div>
-                           <h6><b>Created by</b></h6>
+                           <p>Created by</p>
                            <h6>John Wick</h6>
-                           <button type="button" className="btn1 btn-primary">Primary</button>
+                           <img src="../images/place.png" alt="place bid"/>
                           </div>
                         </div>
                         <div className="column">
                           <div>
-                            <h6>Current bid</h6>
+                            <p>Current bid</p>
                             <h6>5.83ETH</h6>
-                            <button type="button" className="btn1 btn-primary">View history</button>
+                            <p>View history</p>
                           </div> 
                         </div>
                       </div>
@@ -304,16 +304,16 @@ const Categories = () => {
                      <div className="row">
                         <div className="column">
                          <div>
-                           <h6><b>Created by</b></h6>
+                           <p>Created by</p>
                            <h6>John Wick</h6>
-                           <button type="button" className="btn1 btn-primary">Primary</button>
+                           <img src="../images/place.png" alt="place bid"/>
                           </div>
                         </div>
                         <div className="column">
                           <div>
-                            <h6>Current bid</h6>
+                            <p>Current bid</p>
                             <h6>5.83ETH</h6>
-                            <button type="button" className="btn1 btn-primary">View history</button>
+                            <p>View history</p>
                           </div> 
                         </div>
                       </div>
@@ -332,16 +332,16 @@ const Categories = () => {
                      <div className="row">
                         <div className="column">
                          <div>
-                           <h6><b>Created by</b></h6>
+                           <p>Created by</p>
                            <h6>John Wick</h6>
-                           <button type="button" className="btn1 btn-primary">Primary</button>
+                           <img src="../images/place.png" alt="place bid"/>
                           </div>
                         </div>
                         <div className="column">
                           <div>
-                            <h6>Current bid</h6>
+                            <p>Current bid</p>
                             <h6>5.83ETH</h6>
-                            <button type="button" className="btn1 btn-primary">View history</button>
+                            <p>View history</p>
                           </div> 
                         </div>
                       </div>
@@ -351,7 +351,7 @@ const Categories = () => {
             </div>
         </div>
         </div>
-      </section>
+      </div>
     </>
   )
 }
