@@ -11,14 +11,9 @@
   justify-content: center;
   align-items: center;
   font-size: 20px;
-  /*position: sticky;*/
+  position: sticky;
   top: 0;
   z-index: 999;
-  background-image: url('./asset/header.png');
-  background-repeat: no-repeat;
-  background-size: 1440px 510px;
-  background-repeat: no-repeat;
-  padding-bottom: 400px;
 }
 
 .hero-image {
@@ -39,7 +34,7 @@
 .navbar-logo {
   justify-self: start;
   cursor: pointer;
-  width: 100px;
+  width: 200px;
   height: 60px;
   padding-top: 25px;
 }

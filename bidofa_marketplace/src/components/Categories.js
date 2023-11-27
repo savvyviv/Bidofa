@@ -1,6 +1,7 @@
 import React from 'react';
 import './Categories.css';
 
+
 const Categories = () => {
   return (
     <>
@@ -15,6 +16,7 @@ const Categories = () => {
               All items
              </button>
             </div>
+          
             <div className="col-lg-3">
               <div class="card">
                 <img src="../images/cloudy.png" class="card-img-top" alt="cloudy_face"/>
@@ -30,6 +32,7 @@ const Categories = () => {
                            <img src="../images/place.png" alt="place bid"/>
                           </div>
                         </div>
+
                         <div className="column">
                           <div>
                             <p>Current bid</p>
@@ -37,6 +40,7 @@ const Categories = () => {
                             <p>View history</p>
                           </div> 
                         </div>
+                        
                       </div>
                     </div>
                 </div>
