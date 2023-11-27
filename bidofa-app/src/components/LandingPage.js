@@ -24,6 +24,17 @@ import LivestreamImg from "../images/live-stream1.png";
 import LivestreamImg2 from "../images/live-stream2.png";
 import LivestreamImg3 from "../images/live-stream3.png";
 import LivestreamImg4 from "../images/live-stream4.png";
+import RobertFox from "../images/Robert-fox.png";
+import JennyWilson from "../images/Jenny-wilson.png";
+import AlbertFlores from "../images/Albert-flores.png";
+import EleanorPena from "../images/Eleanor-pena.png";
+import CodyFisher from "../images/Cody-fisher.png";
+import FarzahSheriff from "../images/Farzah-sheriff.png";
+import JacobJones from "../images/Jacob-jones.png";
+import KathrynMurphy from "../images/Kathryn-murphy.png";
+import DarrellSteward from "../images/Darrell-steward.png";
+import RalphEdwards from "../images/Ralph-edwards.png";
+import BlockchanImg from "../images/bockchanImg.png";
 
 
 function Home() {
@@ -209,7 +220,7 @@ function Home() {
                     <div className='col-sm-3 col-xs-12' id='feature-card-two'>
                         <img src={LivestreamImg} alt='LivestreamImg' className="trend-img" />
                         <button class="button3"><i class="fa fa-lock"></i> Place Bid</button>
-                        <p className='trend-p'>Joy of design</p>
+                        <p className='tdp'>Joy of design</p>
                         <p className='trend-p'>
                             <img src={TrendImg1} alt='TrendImg1' className='trd-img' />
                             <ul className='trend-ul trend-span'>
@@ -235,7 +246,7 @@ function Home() {
                     <div className='col-sm-3 col-xs-12' id='feature-card-two'>
                         <img src={LivestreamImg2} alt='LivestreamImg2' className="trend-img" />
                         <button class="button3"><i class="fa fa-lock"></i> Place Bid</button>
-                        <p className='trend-p'>Strokes of joy</p>
+                        <p className='tdp'>Strokes of joy</p>
                         <p className='trend-p'>
                             <img src={TrendImg2} alt='TrendImg2' className='trd-img' />
                             <ul className='trend-ul trend-span'>
@@ -261,7 +272,7 @@ function Home() {
                     <div className='col-sm-3 col-xs-12' id='feature-card-two'>
                         <img src={LivestreamImg3} alt='LivestreamImg3' className="trend-img" />
                         <button class="button3"><i class="fa fa-lock"></i> Place Bid</button>
-                        <p className='trend-p'>I love myself</p>
+                        <p className='tdp'>I love myself</p>
                         <p className='trend-p'>
                             <img src={TrendImg3} alt='TrendImg3' className='trd-img' />
                             <ul className='trend-ul trend-span'>
@@ -287,7 +298,7 @@ function Home() {
                     <div className='col-sm-3 col-xs-12' id='feature-card-two'>
                         <img src={LivestreamImg4} alt='LivestreamImg4' className="trend-img" />
                         <button class="button3"><i class="fa fa-lock"></i> Place Bid</button>
-                        <p className='trend-p'>Nature’s beauty</p>
+                        <p className='tdp'>Nature’s beauty</p>
                         <p className='trend-p'>
                             <img src={TrendImg4} alt='TrendImg4' className='trd-img' />
                             <ul className='trend-ul trend-span'>
@@ -309,6 +320,64 @@ function Home() {
                                 </li>
                             </ul>
                         </p>
+                    </div>
+                </div>
+                <div className='row feature-section-two'>
+                    <h3 className='feature-text'>Top Sellers</h3>
+                    <div className='col-xs-12 top-sell'>
+                        <ul className='cryto-ul'>
+                            <li className='cryto-li top-seller'>
+                                <img src={DarrellSteward} alt='DarrellSteward' width="70" className='circle-img img-float' />
+                                <span className='spn-text'>Darrell Steward <br />5.83ETH</span>
+                            </li>
+                            <li className='cryto-li top-seller'>
+                                <img src={KathrynMurphy} alt='KathrynMurphy' width="70" className='circle-img img-float' />
+                                <span className='spn-text'>Kathryn Murphy <br />25USDC</span>
+                            </li>
+                            <li className='cryto-li top-seller'>
+                                <img src={JacobJones} alt='JacobJones' width="70" className='circle-img img-float' />
+                                <span className='spn-text'>Jacob Jones <br />3.5MATIC</span>
+                            </li>
+                            <li className='cryto-li top-seller'>
+                                <img src={FarzahSheriff} alt='FarzahSheriff' width="70" className='circle-img img-float' />
+                                <span className='spn-text'>Farzah Sheriff <br />52USDC</span>
+                            </li>
+                            <li className='cryto-li top-seller'>
+                                <img src={CodyFisher} alt='CodyFisher' width="70" className='circle-img img-float' />
+                                <span className='spn-text'>Cody Fisher <br />20BITCOIN</span>
+                            </li>
+                        </ul>
+                        <ul className='cryto-ul'>
+                            <li className='cryto-li top-seller2'>
+                                <img src={EleanorPena} alt='EleanorPena' width="70" className='circle-img img-float' />
+                                <span className='spn-text'>Eleanor Pena <br />$100</span>
+                            </li>
+                            <li className='cryto-li top-seller2'>
+                                <img src={AlbertFlores} alt='AlbertFlores' width="70" className='circle-img img-float' />
+                                <span className='spn-text'> Albert Flores <br />2.1ETH</span>
+                            </li>
+                            <li className='cryto-li top-seller2'>
+                                <img src={JennyWilson} alt='JennyWilson' width="70" className='circle-img img-float' />
+                                <span className='spn-text'>Jenny Wilson <br />$70</span>
+                            </li>
+                            <li className='cryto-li top-seller2'>
+                                <img src={RobertFox} alt='RobertFox' width="70" className='circle-img img-float' />
+                                <span className='spn-text'>Robert Fox <br />1.3ETH</span>
+                            </li>
+                            <li className='cryto-li top-seller2'>
+                                <img src={RalphEdwards} alt='RalphEdwards' width="70" className='circle-img img-float' />
+                                <span className='spn-text'>Ralph Edwards <br />1.3ETH</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div className='row feature-section-two blockchain-bg'>
+                    <div className='col-sm-6 col-xs-12 img-align'>
+                        <img src={BlockchanImg} alt='BlockchanImg' />
+                    </div>
+                    <div className='col-sm-6 col-xs-12 txt-img'>
+                        <h3 className='blockchan-text'>Learn about <br />Blockchain</h3>
+                        <p  className='trend-p'>Start your own Digital assets blog today with our intuitive platform. <br />Join us and become a part of the Digital revolution.</p>
                     </div>
                 </div>
             </div>
