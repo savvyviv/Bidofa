@@ -49,7 +49,7 @@
     margin-top: 0px;
 }
 
-i {
+.img-circle {
     background: #6F4FF2;
     border-radius: 20px;
     font-size: 35px;
@@ -71,11 +71,43 @@ i {
 }
 
 button {
-    background: none;
+    background: #6F4FF2;
     text-decoration: inherit;
     font-family: system-ui;
-    font-size: 1rem;
-    padding: 1rem 2rem;
+    font-size: 20px;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.button2 {
+    background: transparent;
+    text-decoration: inherit;
+    font-family: system-ui;
+    font-size: 20px;
+    padding: 0.5rem 1rem;
+    border: 2px solid #6F4FF2;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.button3 {
+    position: relative;
+    left: 6%;
+    top: -330px;
+    background: #DC3546;
+    text-decoration: inherit;
+    font-family: system-ui;
+    font-size: 20px;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.t-scp {
+    padding-top: 10px;
 }
   
 .border-gradient {

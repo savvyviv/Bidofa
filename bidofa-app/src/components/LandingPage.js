@@ -20,6 +20,10 @@ import TrendImg1 from "../images/trendimg-1.png";
 import TrendImg2 from "../images/trendimg-2.png";
 import TrendImg3 from "../images/trendimg-3.png";
 import TrendImg4 from "../images/trendimg-4.png";
+import LivestreamImg from "../images/live-stream1.png";
+import LivestreamImg2 from "../images/live-stream2.png";
+import LivestreamImg3 from "../images/live-stream3.png";
+import LivestreamImg4 from "../images/live-stream4.png";
 
 
 function Home() {
@@ -77,22 +81,22 @@ function Home() {
                 <div className='row feature-section'>
                     <h3 className='feature-text'>How it works</h3>
                     <div className='col-sm-3 col-xs-12' id='feature-card'>
-                        <i><img src={Wallet} alt='Wallet' width="50" className='circle-img' /></i>
+                        <div className='img-circle'><img src={Wallet} alt='Wallet' width="50" className='circle-img' /></div>
                         <p className='card-p'>Setup your wallet</p>
                         <p className='card-p2'>Sign up into your dashboard using your socials or connect using your crpto wallet</p>
                     </div>
                     <div className='col-sm-3 col-xs-12' id='feature-card'>
-                        <i><img src={Vector} alt='Vector' width="50" className='circle-img' /></i>
+                        <div className='img-circle'><img src={Vector} alt='Vector' width="50" className='circle-img' /></div>
                         <p className='card-p'>Create your collection</p>
                         <p className='card-p2'>Create your amazing digital assets to sell and connect with other creators</p>
                     </div>
                     <div className='col-sm-3 col-xs-12' id='feature-card'>
-                        <i><img src={Lucide} alt='Lucide' width="50" className='circle-img' /></i>
+                        <div className='img-circle'><img src={Lucide} alt='Lucide' width="50" className='circle-img' /></div>
                         <p className='card-p'>Add your assets</p>
                         <p className='card-p2'>Upload your latest work of art in photography, videos and artworks</p>
                     </div>
                     <div className='col-sm-3 col-xs-12' id='feature-card'>
-                        <i><img src={IconMenu} alt='IconMenu' width="50" className='circle-img' /></i>
+                        <div className='img-circle'><img src={IconMenu} alt='IconMenu' width="50" className='circle-img' /></div>
                         <p className='card-p'>List them for sale</p>
                         <p className='card-p2'>Connect with buyers across Africa and receive payment in your local currency</p>
                     </div>
@@ -110,6 +114,16 @@ function Home() {
                                 </li>
                                 <li className="trend-li">
                                 Current bid <br /><b>5.83ETH</b>
+                                </li>
+                            </ul>
+                        </p>
+                        <p className='trend-p'>
+                            <ul className='trend-ul'>
+                                <li className="trend-li cryto-li">
+                                    <button class="button"><i class="fa fa-lock"></i> Place Bid</button>
+                                </li>
+                                <li className="trend-li trend-span t-scp">
+                                    View History
                                 </li>
                             </ul>
                         </p>
@@ -131,9 +145,9 @@ function Home() {
                         <p className='trend-p'>
                             <ul className='trend-ul'>
                                 <li className="trend-li cryto-li">
-                                    <button class="btn"><i class="fa fa-lock"></i> Place Bid</button>
+                                    <button class="button"><i class="fa fa-lock"></i> Place Bid</button>
                                 </li>
-                                <li className="trend-li trend-span">
+                                <li className="trend-li trend-span t-scp">
                                     View History
                                 </li>
                             </ul>
@@ -153,6 +167,16 @@ function Home() {
                                 </li>
                             </ul>
                         </p>
+                        <p className='trend-p'>
+                            <ul className='trend-ul'>
+                                <li className="trend-li cryto-li">
+                                    <button class="button"><i class="fa fa-lock"></i> Place Bid</button>
+                                </li>
+                                <li className="trend-li trend-span t-scp">
+                                    View History
+                                </li>
+                            </ul>
+                        </p>
                     </div>
                     <div className='col-sm-3 col-xs-12' id='feature-card-two'>
                         <img src={Worldmotion} alt='Worldmotion' className="trend-img" />
@@ -165,6 +189,123 @@ function Home() {
                                 </li>
                                 <li className="trend-li">
                                 Current bid <br /><b>$35.00</b>
+                                </li>
+                            </ul>
+                        </p>
+                        <p className='trend-p'>
+                            <ul className='trend-ul'>
+                                <li className="trend-li cryto-li">
+                                    <button class="button"><i class="fa fa-lock"></i> Place Bid</button>
+                                </li>
+                                <li className="trend-li trend-span t-scp">
+                                    View History
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div className='row feature-section-two'>
+                    <h3 className='feature-text'>Live Auction</h3>
+                    <div className='col-sm-3 col-xs-12' id='feature-card-two'>
+                        <img src={LivestreamImg} alt='LivestreamImg' className="trend-img" />
+                        <button class="button3"><i class="fa fa-lock"></i> Place Bid</button>
+                        <p className='trend-p'>Joy of design</p>
+                        <p className='trend-p'>
+                            <img src={TrendImg1} alt='TrendImg1' className='trd-img' />
+                            <ul className='trend-ul trend-span'>
+                                <li className="trend-li space">
+                                Created by <br /><b>John wick</b>
+                                </li>
+                                <li className="trend-li">
+                                Current bid <br /><b>5.83ETH</b>
+                                </li>
+                            </ul>
+                        </p>
+                        <p className='trend-p'>
+                            <ul className='trend-ul'>
+                                <li className="trend-li cryto-li">
+                                    <button class="button"><i class="fa fa-lock"></i> Place Bid</button>
+                                </li>
+                                <li className="trend-li trend-span">
+                                    <button class="button2">Submit</button>
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div className='col-sm-3 col-xs-12' id='feature-card-two'>
+                        <img src={LivestreamImg2} alt='LivestreamImg2' className="trend-img" />
+                        <button class="button3"><i class="fa fa-lock"></i> Place Bid</button>
+                        <p className='trend-p'>Strokes of joy</p>
+                        <p className='trend-p'>
+                            <img src={TrendImg2} alt='TrendImg2' className='trd-img' />
+                            <ul className='trend-ul trend-span'>
+                                <li className="trend-li space">
+                                Created by <br /><b>Ali Bali</b>
+                                </li>
+                                <li className="trend-li">
+                                Current bid <br /><b>20USDC</b>
+                                </li>
+                            </ul>
+                        </p>
+                        <p className='trend-p'>
+                            <ul className='trend-ul'>
+                                <li className="trend-li cryto-li">
+                                    <button class="button"><i class="fa fa-lock"></i> Place Bid</button>
+                                </li>
+                                <li className="trend-li trend-span">
+                                    <button class="button2">Submit</button>
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div className='col-sm-3 col-xs-12' id='feature-card-two'>
+                        <img src={LivestreamImg3} alt='LivestreamImg3' className="trend-img" />
+                        <button class="button3"><i class="fa fa-lock"></i> Place Bid</button>
+                        <p className='trend-p'>I love myself</p>
+                        <p className='trend-p'>
+                            <img src={TrendImg3} alt='TrendImg3' className='trd-img' />
+                            <ul className='trend-ul trend-span'>
+                                <li className="trend-li space-two">
+                                Created by <br /><b>Sarah Adams</b>
+                                </li>
+                                <li className="trend-li">
+                                Current bid <br /><b>2.83ETH</b>
+                                </li>
+                            </ul>
+                        </p>
+                        <p className='trend-p'>
+                            <ul className='trend-ul'>
+                                <li className="trend-li cryto-li">
+                                    <button class="button"><i class="fa fa-lock"></i> Place Bid</button>
+                                </li>
+                                <li className="trend-li trend-span">
+                                    <button class="button2">Submit</button>
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div className='col-sm-3 col-xs-12' id='feature-card-two'>
+                        <img src={LivestreamImg4} alt='LivestreamImg4' className="trend-img" />
+                        <button class="button3"><i class="fa fa-lock"></i> Place Bid</button>
+                        <p className='trend-p'>Nature’s beauty</p>
+                        <p className='trend-p'>
+                            <img src={TrendImg4} alt='TrendImg4' className='trd-img' />
+                            <ul className='trend-ul trend-span'>
+                                <li className="trend-li space-two">
+                                Created by <br /><b>Riskat Fehra</b>
+                                </li>
+                                <li className="trend-li">
+                                Current bid <br /><b>$35.00</b>
+                                </li>
+                            </ul>
+                        </p>
+                        <p className='trend-p'>
+                            <ul className='trend-ul'>
+                                <li className="trend-li cryto-li">
+                                    <button class="button"><i class="fa fa-lock"></i> Place Bid</button>
+                                </li>
+                                <li className="trend-li trend-span">
+                                    <button class="button2">Submit</button>
                                 </li>
                             </ul>
                         </p>
