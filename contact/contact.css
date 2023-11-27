@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 
-header {
+body {
     background-image: url(asset/header\ bg.png);
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -122,14 +123,11 @@ h1>a {
 }
 
 .contact-body {
-    width: 1900px;
-    height: 2226px;
     background: linear-gradient(166deg, #6F4FF2 2.18%, #43328C 14.73%, #2D2357 51.85%, #1D1932 98.5%);
-    top: 0;
 }
 
+
 .drop >h4 {
-    flex-shrink: 0;
     color: var(--Text-color, #FFF);
     text-align: center;
     font-family: Kanit;
@@ -142,8 +140,6 @@ h1>a {
 }
 
 .drop >p{
-    height: 34px;
-    flex: 1 0 0;
     color: var(--Text-color, #FFF);
     text-align: center;
     font-family: Kanit;
@@ -155,12 +151,8 @@ h1>a {
 }
 
 .name, .email, .subject {
-    display: flex;
     width: 652px;
-    padding: 4px 487px 4px 23px;
-    align-items: center;
     color: rgba(255, 255, 255, 0.50);
-    text-align: center;
     font-family: Kanit;
     font-size: 18px;
     font-style: normal;
@@ -170,17 +162,46 @@ h1>a {
     border-radius: 8px;
     border: 1px solid #FFF;
     background-color: transparent;
+    padding-left: 20px;
 }
 
 #message {
-    display: flex;
     width: 652px;
     height: 192px;
-    padding: 5px 509px 151px 20px;
-    align-items: center;
-    flex-shrink: 0;
     border-radius: 8px;
     border: 1px solid var(--white, #FFF);
     background-color: transparent;
     color: rgba(255, 255, 255, 0.50);
+    font-family: Kanit;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 200% */
+    letter-spacing: 0.36px;
+    padding-left: 20px;
+}
+
+#submit {
+    width: 459px;
+    padding: 12px;
+    gap: 4px;
+    border-radius: 30px;
+    text-align: center;
+    font-family: Kanit;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px; /* 141.667% */
+    letter-spacing: 0.48px;
+    color: #FFF;
+    border: none;
+    background: #6F4FF2;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15);
+    margin-left: 630px;
+   
+}
+
+
+.my_form {
+    text-align: center;
 }
