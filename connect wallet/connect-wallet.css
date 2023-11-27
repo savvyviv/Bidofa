@@ -124,9 +124,8 @@ h1>a {
 
 .connect-wallet {
     width: 100%;
-    height: 200px;
+    height: 150px;
     display: flex;
-    align-items: stretch;
 }
 
 .connect {
@@ -136,7 +135,7 @@ h1>a {
     position: absolute;
     bottom: 8px;
     left: 16px;
-    margin-bottom: -350px;
+    margin-bottom: -250px;
     margin-left: 100px;
 }
 
@@ -152,11 +151,10 @@ h1>a {
 
 
 .info {
-    width: 1000px;
+    width: 1200px;
     height: 828px;
     text-align: center;
     justify-content: center;
-    margin-bottom: 100px;
     background: linear-gradient(166deg, #6F4FF2 2.18%, #43328C 14.73%, #2D2357 51.85%, #1D1932 98.5%);;
 }
 
@@ -170,6 +168,8 @@ h1>a {
     font-weight: 700;
     line-height: 32px; /* 133.333% */
     letter-spacing: 0.48px;
+    margin-top: 200px;
+    margin-bottom: 20px;
 }
 
 .get-started >h6{
@@ -191,6 +191,7 @@ h1>a {
     align-items: center;
     justify-content: center;
     gap: 4px;
+    margin-top: 30px;
     border-radius: 30px;
     text-align: center;
     font-family: Kanit;
@@ -213,6 +214,7 @@ h1>a {
     font-weight: 600;
     line-height: 36px; /* 200% */
     letter-spacing: 0.36px;
+    margin: 30px;
 }
 
 #assets{
@@ -232,21 +234,6 @@ h1>a {
     color: #FFF;
 }
 
-form {
-    display: flex;
-    width: 445px;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-top: 50px;
-    margin-left: 280px;
-    color: #FFF;
-}
-
-.creator {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
 
 .login {
     color: var(--Text-color, #FFF);
@@ -257,6 +244,8 @@ form {
     font-weight: 400;
     line-height: 28px; /* 140% */
     letter-spacing: 0.4px;
+    margin-top: 20px;
+    padding-left: 350px;
 }
 
 span {
