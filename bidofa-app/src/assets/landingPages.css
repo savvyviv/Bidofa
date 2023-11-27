@@ -1,0 +1,570 @@
+@import url('https://fonts.cdnfonts.com/css/orbitron');
+@import url('https://fonts.cdnfonts.com/css/kanit');
+
+.hero-background {
+    background-image: url('../images/hero-background.jpg');
+    height: 100%;
+
+}
+
+.feature-background {
+    background-image: url('../images/featuregg.jpg');
+    height: 100%;
+}
+
+#feature-card {
+    border-radius: 5px;
+    border: none;
+    padding: 40px;
+    margin-left: 20px;
+    margin-top: 40px;
+    max-width: 340px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);; 
+}
+
+#feature-card-two {
+    border-radius: 5px;
+    border: none;
+    padding: 15px;
+    margin-left: 20px;
+    margin-top: 40px;
+    max-width: 340px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.2);; 
+}
+
+.trend-img {
+    max-width: 320px;
+    width: 100%;
+}
+
+.feature-section {
+    padding: 60px;
+    margin-top: 30px;
+}
+
+.feature-section-two {
+    padding: 60px;
+    margin-top: 0px;
+}
+
+i {
+    background: #6F4FF2;
+    border-radius: 20px;
+    font-size: 35px;
+    text-align: center;
+    margin-right: 10px;
+    border-radius:50%;
+    display:inline-block;
+    padding:10px;
+}
+  
+.circle-img {
+    display:block;
+}
+
+.mask {
+    background-color: rgba(51, 9, 60, 0.6);
+    margin: -48px;
+    height: 100%;
+}
+
+button {
+    background: none;
+    text-decoration: inherit;
+    font-family: system-ui;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+}
+  
+.border-gradient {
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+}
+
+.border-gradient-purple {
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+}
+
+.hero-font {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 80px;
+    letter-spacing: 2%;
+    text-align: left;
+    color: #fff;
+    padding-top: 50px;
+}
+
+.crypto-text {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+    letter-spacing: 2%;
+    text-align: left;
+    color: #fff;
+}
+
+.feature-text {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 40px;
+    letter-spacing: 2%;
+    text-align: center;
+    color: #fff;
+}
+
+.h-pd{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 100px;
+    padding-bottom: 80px;
+}
+
+.hero-image {
+    justify-self: end;
+    margin-left: 100px;
+    padding-top: 50px;
+}
+
+.hero-p {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 2%;
+    color: #fff;
+    text-align: left;
+}
+
+.card-p {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 2%;
+    color: #fff;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.trend-p {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 2%;
+    color: #fff;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.card-p2 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 2%;
+    color: #fff;
+    text-align: left;
+}
+
+.btn-grad {
+    background: 
+      linear-gradient(to right, #FF3838 -10%, #6F4FF2 50%, #6F4FF2 -50%) padding-box,
+      linear-gradient(70deg, #FF3838, #6F4FF2) border-box;
+    margin: 10px;
+    padding: 10px 35px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    display: block;
+    border: 6px solid transparent;
+    /* border-image: linear-gradient(#FF3838, #6F4FF2) 30;
+    border-width: 4px; */
+    border-radius: 10px;
+}
+  
+.btn-grad2 {
+    background-color: #6F4FF2;
+    margin: 10px;
+    padding: 15px 35px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    display: block;
+    border-radius: 10px;
+}
+  
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+  
+.btn-width {
+    max-width: 200px;
+    width: 200px;
+}
+
+.button-container {
+    display: flex;
+    margin-top: 40px;
+}
+
+.hero-img {
+    width: 450px;
+    height: 100%;
+}
+
+.s-text {
+    background: -webkit-linear-gradient(top, #FF3838, #6F4FF2);
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 4px transparent;
+    color: #1D1932; 
+    padding-bottom: 5px;
+}
+
+.cryto-bg {
+   background-color: #3C3560;
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+
+.container {
+    max-width: 100%!important;
+}
+
+.cryto-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 80px;
+  overflow: hidden;
+}
+
+.trend-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0px;
+}  
+
+.trend-li {
+    float: left;
+}
+
+.trd-img {
+    margin-right: 3px;
+    width: 70px;
+}
+
+.cryto-li {
+    float: left;
+}
+
+.metamask-li {
+    justify-self: start;
+    margin-right: 360px;
+}
+
+.trend-span {
+    float: right;
+}
+
+.space {
+    margin-right: 40px;
+}
+
+.space-two {
+    margin-right: 10px;
+}
+
+.trustwallet-li {
+    justify-self: end;
+    margin-left: 360px;
+}
+
+.visacard-li {
+    justify-self: start;
+    margin-left: 430px;
+    margin-right: 50px;
+}
+
+.mastercard-li {
+    justify-self: end;
+    margin-right: 220px;
+    margin-left: 50px;
+}
+
+.metamask {
+    width: 70px;
+}
+
+.exodus {
+    width: 70px;
+}
+
+@media screen and (max-width: 960px) {
+    .hero-image {
+        justify-self: start;
+        margin-left: 0px;
+        padding-top: 40px;
+    }
+
+    .hero-font {
+        font-family: 'Orbitron', sans-serif;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 55px;
+        letter-spacing: 2%;
+        text-align: left;
+        color: #fff;
+        padding-top: 50px;
+    }
+    
+    .h-pd{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+    }
+
+    .text-center {
+        text-align: left !important;
+    }
+
+    .btn-width {
+        max-width: 200px;
+        width: 150px;
+    }
+
+    .button-container {
+        display: flex;
+        margin-top: 40px;
+        align-items: center;
+    }
+
+    .hero-img {
+        width: 300px;
+        height: 100%;
+    }
+
+    .metamask-li {
+        justify-self: center;
+        margin: 20px auto;
+    }
+    
+    .trustwallet-li {
+        justify-self: center;
+        margin: 20px auto;
+    }
+
+}
+
+@media screen and (min-width: 961px) and (max-width: 1024px) { 
+    .hero-img {
+        width: 370px;
+        height: 100%;
+    }
+
+    .hero-image {
+        justify-self: end;
+        margin-left: 20px;
+        padding-top: 50px;
+    }
+
+    .h-pd {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 100px;
+        padding-bottom: 80px;
+    }
+
+    .metamask-li {
+        justify-self: start;
+        margin-right: 130px;
+    }
+    
+    .trustwallet-li {
+        justify-self: end;
+        margin-left: 130px;
+    }
+
+    .visacard-li {
+        justify-self: start;
+        margin-left: 200px;
+        margin-right: 50px;
+    }
+    
+    .mastercard-li {
+        justify-self: end;
+        margin-right: 20px;
+        margin-left: 50px;
+    }
+
+    .cryto-ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 15px 20px;
+        overflow: hidden;
+    }
+
+    #feature-card {
+        border-radius: 5px;
+        border: none;
+        padding: 40px;
+        margin-left: 20px;
+        margin-top: 20px;
+        max-width: 420px;
+        width: 100%;
+        background-color: #ffffff32; 
+    }
+
+    #feature-card-two {
+        border-radius: 5px;
+        border: none;
+        padding: 15px;
+        margin-left: 20px;
+        margin-top: 20px;
+        max-width: 420px;
+        width: 100%;
+        background-color: #ffffff32; 
+    }
+
+    .trend-img {
+        max-width: 400px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 800px) { 
+    .metamask-li {
+        justify-self: start;
+        margin-right: 55px;
+    }
+    
+    .trustwallet-li {
+        justify-self: end;
+        margin-left: 55px;
+    }
+
+    .metamask {
+        width: 50px;
+    }
+    
+    .exodus {
+        width: 50px;
+    }
+
+    .exodus-li {
+        padding-top: 23px;
+    }
+
+    .cryto-ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 15px 10px;
+        overflow: hidden;
+    }
+
+    .visacard-li {
+        justify-self: start;
+        margin-left: 120px;
+        margin-right: 50px;
+    }
+    
+    .mastercard-li {
+        justify-self: end;
+        margin-right: 10px;
+        margin-left: 30px;
+    }
+
+    #feature-card {
+        border-radius: 5px;
+        border: none;
+        padding: 40px;
+        margin-left: 20px;
+        margin-top: 20px;
+        max-width: 345px;
+        width: 100%;
+        background-color: #ffffff32; 
+    }
+
+    .feature-section {
+        padding: 10px;
+        margin-top: 30px;
+    }
+
+    .trend-img {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .feature-section-two {
+        padding: 10px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .visacard-li {
+        justify-self: center;
+        margin: 10px auto;
+    }
+    
+    .mastercard-li {
+        justify-self: center;
+        margin: 20px auto;
+    }
+
+    .cryto-ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0px;
+        overflow: hidden;
+    }
+
+    #feature-card {
+        border-radius: 5px;
+        border: none;
+        padding: 40px;
+        margin-left: 0px;
+        margin-top: 20px;
+        max-width: 100%;
+        width: 100%;
+        background-color: #ffffff32; 
+    }
+
+    .feature-section {
+        padding: 10px;
+        margin-top: 30px;
+    }
+
+    .feature-section-two {
+        padding: 10px;
+        margin-top: 30px;
+    }
+
+    #feature-card-two {
+        border-radius: 5px;
+        border: none;
+        padding: 15px;
+        margin-left: 0px;
+        margin-top: 40px;
+        max-width: 100%;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.2);; 
+    }
+
+    .trend-img {
+        max-width: 100%;
+        width: 100%;
+    }
+}
