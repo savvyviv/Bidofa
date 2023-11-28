@@ -303,6 +303,11 @@ button {
     padding-bottom: 30px;
 }
 
+.blockchain-bg img {
+    max-width: 450px;
+    width: 100%;
+}
+
 .img-align {
     text-align: center;
 }
@@ -460,6 +465,16 @@ button {
         margin: 20px auto;
     }
 
+    .blockchain-bg img {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .txt-img {
+        float: left;
+        margin-top: 30px;
+        text-align: left;
+    }
 }
 
 @media screen and (min-width: 961px) and (max-width: 1024px) { 
@@ -549,6 +564,12 @@ button {
         margin-top: 20px;
         color: #fff;
         display: inline-block;
+    }
+
+    .txt-img {
+        float: left;
+        margin-top: 60px;
+        text-align: left;
     }
 }
 

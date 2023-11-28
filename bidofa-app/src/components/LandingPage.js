@@ -377,7 +377,8 @@ function Home() {
                     </div>
                     <div className='col-sm-6 col-xs-12 txt-img'>
                         <h3 className='blockchan-text'>Learn about <br />Blockchain</h3>
-                        <p  className='trend-p'>Start your own Digital assets blog today with our intuitive platform. <br />Join us and become a part of the Digital revolution.</p>
+                        <p  className='trend-p'>Start your own Digital assets blog today with our intuitive platform. 
+                        <br />Join us and become a part of the Digital revolution.</p>
                     </div>
                 </div>
             </div>
