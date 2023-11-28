@@ -219,7 +219,7 @@ function Home() {
                     <h3 className='feature-text'>Live Auction</h3>
                     <div className='col-sm-3 col-xs-12' id='feature-card-two'>
                         <img src={LivestreamImg} alt='LivestreamImg' className="trend-img" />
-                        <button class="button3"><i class="fa fa-lock"></i> Place Bid</button>
+                        <button class="button3"> 12:15:30 </button>
                         <p className='tdp'>Joy of design</p>
                         <p className='trend-p'>
                             <img src={TrendImg1} alt='TrendImg1' className='trd-img' />
@@ -245,7 +245,7 @@ function Home() {
                     </div>
                     <div className='col-sm-3 col-xs-12' id='feature-card-two'>
                         <img src={LivestreamImg2} alt='LivestreamImg2' className="trend-img" />
-                        <button class="button3"><i class="fa fa-lock"></i> Place Bid</button>
+                        <button class="button3"> 12:15:30 </button>
                         <p className='tdp'>Strokes of joy</p>
                         <p className='trend-p'>
                             <img src={TrendImg2} alt='TrendImg2' className='trd-img' />
@@ -271,7 +271,7 @@ function Home() {
                     </div>
                     <div className='col-sm-3 col-xs-12' id='feature-card-two'>
                         <img src={LivestreamImg3} alt='LivestreamImg3' className="trend-img" />
-                        <button class="button3"><i class="fa fa-lock"></i> Place Bid</button>
+                        <button class="button3"> 12:15:30 </button>
                         <p className='tdp'>I love myself</p>
                         <p className='trend-p'>
                             <img src={TrendImg3} alt='TrendImg3' className='trd-img' />
@@ -297,7 +297,7 @@ function Home() {
                     </div>
                     <div className='col-sm-3 col-xs-12' id='feature-card-two'>
                         <img src={LivestreamImg4} alt='LivestreamImg4' className="trend-img" />
-                        <button class="button3"><i class="fa fa-lock"></i> Place Bid</button>
+                        <button class="button3"> 12:15:30 </button>
                         <p className='tdp'>Nature’s beauty</p>
                         <p className='trend-p'>
                             <img src={TrendImg4} alt='TrendImg4' className='trd-img' />
@@ -377,9 +377,19 @@ function Home() {
                     </div>
                     <div className='col-sm-6 col-xs-12 txt-img'>
                         <h3 className='blockchan-text'>Learn about <br />Blockchain</h3>
-                        <p  className='trend-p'>Start your own Digital assets blog today with our intuitive platform. 
+                        <p className='trend-p'>Start your own Digital assets blog today with our intuitive platform. 
                         <br />Join us and become a part of the Digital revolution.</p>
                     </div>
+                </div>
+                <div className='row feature-section-two'>
+                    <div className='col-sm-12 col-xs-12 join-section'>
+                        <h3 className='feature-text'>Join our Community</h3>
+                        <p className='newsletter-p'>Meet our Jaja Team, artists and collections for <br />platform updates, announcements and more</p>
+                        <button class="button-news">Join us on Discord</button>
+                    </div>
+                </div>
+                <div className='row footer-section'>
+
                 </div>
             </div>
         </div>
