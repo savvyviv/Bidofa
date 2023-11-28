@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './navbar';
+import Footer from "./Footer";
 import "../assets/landingPages.css";
 import { Link } from 'react-router-dom';
 import HeroImage from "../images/hero image.png";
@@ -392,6 +393,7 @@ function Home() {
 
                 </div>
             </div>
+            <Footer />
         </div>
       </>
     );

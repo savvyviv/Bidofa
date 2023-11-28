@@ -46,9 +46,9 @@
 }
 
 .footer-section {
-    padding: 60px;
-    margin-top: 30px;
+    padding: 30px 60px;
     background-color: #3C3560;
+    color: #fff;
 }
 
 .feature-section-two {
@@ -507,6 +507,12 @@ button {
         float: left;
         margin-top: 30px;
         text-align: left;
+    }
+
+    .footer-section {
+        padding: 30px 20px;
+        background-color: #3C3560;
+        color: #fff;
     }
 }
 
