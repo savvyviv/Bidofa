@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@500&display=swap');
+
 .footer {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -7,6 +9,40 @@
     width: 1440px;
 }
 
+.svg-inline--fa {
+    display: var(--fa-display, inline-block);
+    height: 2em;
+    padding-left: 13px;
+    overflow: visible;
+    vertical-align: -0.125em;
+    color: #fff;
+}
+
+h6 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: azure;
+    line-height: 40px;
+}
+
+h5 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 2%;
+    color: #fff;
+}
+
+.bodofa-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 2%;
+    color: #fff;
+}
 
 .horizontal {
     padding-top: 30px;
@@ -27,4 +63,15 @@
 
 .terms {
     padding-left: 190px;
+}
+
+
+@media screen and (max-width: 960px) {
+    .terms {
+        padding-left: 0px;
+    }
+
+    .policy {
+        padding-left: 0px;
+    }
 }
