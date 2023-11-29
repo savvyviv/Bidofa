@@ -276,7 +276,7 @@ button {
     background-size: 200% auto;
     color: white;            
     display: block;
-    border: 6px solid transparent;
+    border: 2px solid transparent;
     /* border-image: linear-gradient(#FF3838, #6F4FF2) 30;
     border-width: 4px; */
     border-radius: 10px;
@@ -285,7 +285,7 @@ button {
 .btn-grad2 {
     background-color: #6F4FF2;
     margin: 10px;
-    padding: 15px 35px;
+    padding: 12px 35px;
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
