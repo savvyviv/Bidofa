@@ -8,10 +8,11 @@ body {
 }
 
 .dashboard {
-    background-image: url(./images/sidebar.png);
-    background-color: transparent;
+    background-image: url(./images/sidebar.png) !important;
+    background-color: #1d0f52;
     background-size: 550px 900px;
     background-repeat: no-repeat;
+    outline: none;
 }
 
 h1 {
@@ -23,9 +24,30 @@ h1 {
 .menu1 {
     margin-bottom: 100px;
     margin-top: 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu1:hover {
+    color: blueviolet;
 }
 
 h2 {
     font-family: 'Poppins', sans-serif;
 }
 
+.link1 {
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    margin-top: 20px;
+}
+
+.link1:hover {
+    color: blueviolet;
+}
+
+.img {
+    margin-left: 40px;
+    margin-top: 150px;
+    margin-bottom: 40px;
+}

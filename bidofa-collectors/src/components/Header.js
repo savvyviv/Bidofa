@@ -16,8 +16,12 @@ import Settings from '../Pages/Settings';
 import Dashboard from '../Pages/Dashboard';
 
 
+import Label from './images/label.png';
+
+
 const Header = () => {
   const { collapseSidebar } = useProSidebar();
+
 
   return (
     <div style={{ display: 'flex', height: '100vh'}}>
@@ -34,19 +38,22 @@ const Header = () => {
               className='menu1'>
                 <h2>BIDOFA</h2>
             </MenuItem>
-            <MenuItem 
+            <MenuItem className="link1"
               component={<Link to='/dashboard' className='link'/>}
               icon={< MdOutlineSpaceDashboard/>}>Dashboard</MenuItem>
-            <MenuItem
+            <MenuItem className="link1"
               component={<Link to='/bids' className='link'/>}
               icon={<AiOutlineFire/>}>Active Bids</MenuItem>
-            <MenuItem
+            <MenuItem className="link1"
               component={<Link to='/collection' className='link'/>}
               icon={<IoImageOutline/>}>Collection</MenuItem>
-            <MenuItem
+            <MenuItem className="link1"
               component={<Link to='/settings' className='link'/>}
               icon={<FiSettings/>}>Settings</MenuItem>
-            <MenuItem icon={<AiOutlineLogout/>}>Logout</MenuItem>
+            
+            <img src={Label} alt='label' className='img'/>
+            <MenuItem className="link1"
+              icon={<AiOutlineLogout/>}>Logout</MenuItem>
         </Menu>
       </Sidebar>
       <section>
