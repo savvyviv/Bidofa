@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    /*-webkit-font-smoothing: antialiased;*/
+    /*-moz-osx-font-smoothing: grayscale;*/
+    height: 100vh;
+   /* background: #ffffff;*/
+    font-size: 24px;
+}
+
+.dashboard {
+    background-image: url(./images/sidebar.png);
+    background-color: transparent;
+    background-size: 550px 900px;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    margin: 50px auto;
+}
+
+.menu1 {
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
