@@ -154,10 +154,11 @@ a {
     width: 100%;
     height: 90vh;
     position: absolute;
-    top: 110px;
+    top: 90px;
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
+    padding-bottom: 20px;
   }
 
   ul {
@@ -179,7 +180,7 @@ a {
   
   .nav-links {
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
     width: 100%;
     display: table;
   }
@@ -245,7 +246,7 @@ a {
   }
 
   .navbar-logo {
-    margin-top: -30px;
+    margin-top: -10px;
   }
 }
 
