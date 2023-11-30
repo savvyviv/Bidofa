@@ -1,5 +1,6 @@
 .logo {
-  background-color: #1d0f52;
+  /*background-color: #1d0f52;*/
+  background-image: url(../components/images/sidebar.png);
   width: 1200px;
   height: 100px;
   padding-bottom: 40px;
