@@ -1,14 +1,14 @@
 @import url('https://fonts.cdnfonts.com/css/orbitron');
 @import url('https://fonts.cdnfonts.com/css/kanit');
 
-.hero-background {
-    background-image: url('../images/hero-background.jpg');
+.main {
+    background-image: url('../images/homepage.png');
     height: 100%;
 
 }
 
 .feature-background {
-    background-image: url('../images/featuregg.jpg');
+    background-color: transparent;
     height: 100%;
 }
 

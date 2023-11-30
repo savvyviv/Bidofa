@@ -16,12 +16,14 @@
   z-index: 999;
 }
 
-.navbar-container {
+.navbarContainer {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
-  max-width: 1500px;
+  height: 110px;
+  max-width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
   
 .navbar-logo {
@@ -29,7 +31,6 @@
   cursor: pointer;
   width: 200px;
   height: 60px;
-  padding-top: 25px;
 }
   
 .navbar-user {
@@ -39,6 +40,9 @@
   display: flex;
 }
 
+.navbarContainer.scroll {
+  background-color: #000;
+}
 
 
 .fa-typo3 {
@@ -54,7 +58,7 @@
   text-align: center;
   width: 80vw;
   justify-content: end;
-  padding-top: 70px;
+  padding-top: 40px;
 }
   
 .nav-item {
@@ -150,10 +154,11 @@ a {
     width: 100%;
     height: 90vh;
     position: absolute;
-    top: 110px;
+    top: 90px;
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
+    padding-bottom: 20px;
   }
 
   ul {
@@ -175,7 +180,7 @@ a {
   
   .nav-links {
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
     width: 100%;
     display: table;
   }
@@ -241,7 +246,7 @@ a {
   }
 
   .navbar-logo {
-    margin-top: -30px;
+    margin-top: -10px;
   }
 }
 

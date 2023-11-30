@@ -10,11 +10,22 @@ function Navbar() {
     const handleClick = () => setClick(!click);
     const closeMobilemenu = () => setClick(false);
 
+    const [navbarContainer, setNavbar] = useState(false);
+    const changeBg = () => {
+        if (window.scrollY >= 100) {
+            setNavbar(true);
+        } else {
+            setNavbar (false);
+        }
+    };
+    window.addEventListener("scroll", changeBg)
+
 
     return (
     <>
       <nav className='navbar'>
-        <div className='navbar-container'>
+        <div className= {navbarContainer ? "navbarContainer scroll navba-expand-sm fixed-top":
+        "navbarContainer navba-expand-sm fixed-top"}>
            <Link to="/" className='navbar-logo' onClick={closeMobilemenu}>
                 <img src={Logo} alt="Logo" />
            </Link>

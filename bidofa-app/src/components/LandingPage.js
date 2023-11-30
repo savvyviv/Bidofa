@@ -42,7 +42,7 @@ function Home() {
     return (
       <>
         <div className='main'>
-            <div className="p-5 text-center bg-image hero-background">
+            <div className="p-5 text-center bg-image">
                 <div className="mask">
                     <Navbar />
                     <div className="align-items-center h-100">
