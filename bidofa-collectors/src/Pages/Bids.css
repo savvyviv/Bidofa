@@ -1,3 +1,7 @@
+.section {
+      background: linear-gradient(166deg, #6F4FF2 2.18%, #43328C 14.73%, #2D2357 51.85%, #1D1932 98.5%);
+}
+
 .logo {
     /*background-color: #1d0f52;*/
     background-image: url(../components/images/sidebar.png);
@@ -88,6 +92,7 @@
 
 .avatar {
       margin-left: 20px;
+      margin-right: 30px;
 }
 
     /*widgets*/
@@ -95,7 +100,8 @@
 .widgets {
       display: flex;
       gap: 20px;
-      /*width: 330px;*/
+      padding-right: 40px;
+      /*width: 500px;*/
       /*background: var(--Primary-color, #1D1932);*/
 
 }
@@ -222,6 +228,7 @@
   display: flex;
   justify-content: space-between;
   padding-top: 30px;
+  color: white
 }
 
 .list-title p {
@@ -237,4 +244,8 @@
   background: var(--primary-base, #6F4FF2);
   color: white;
   padding-top: 5px;
+}
+
+.bids {
+      color: white
 }

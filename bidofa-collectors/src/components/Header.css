@@ -10,10 +10,9 @@ body {
 .dashboard {
     background-image: url(./images/sidebar.png) !important;
     background-color: #1d0f52;
-    background-size: 550px 1300px;
+    background-size: 550px 1400px;
     background-repeat: no-repeat;
-    outline: none;
-    height: 1300px;
+    height: 1400px;
 }
 
 h1 {

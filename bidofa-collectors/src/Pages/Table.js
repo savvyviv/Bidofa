@@ -6,10 +6,13 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
+import Checkbox from '@mui/material/Checkbox';
 
 import Avatar from '../components/images/NFT.png';
 import Avatar2 from '../components/images/avatar.png';
 import auction from '../components/images/auction.png';
+
+import './Table.css';
 
 function createData(
   id: number,
@@ -35,13 +38,15 @@ const rows = [
   
 ];
 
+const label = { inputProps: { 'aria-label': 'Checkbox' } };
+
 export default function BasicTable() {
   return (
     <TableContainer component={Paper} className='table'>
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
         <TableHead>
           <TableRow>
-            <TableCell>Item List</TableCell>
+            <TableCell className='table-cell'>Item List</TableCell>
             <TableCell className='table-cell'>Open Price</TableCell>
             <TableCell className='table-cell'>Your Offer</TableCell>
             <TableCell className='table-cell'>Recent Offer</TableCell>
@@ -54,6 +59,8 @@ export default function BasicTable() {
             <TableRow key={row.id}>
               <TableCell>
                 <div className='cell-wrapper'>
+                    <div className='checkbox'></div>
+                    <Checkbox {...label} sx={{ color: 'white' }}/>
                     <img src={Avatar} alt='cell-avatar' className='cell-image' />
                     {row.id}
                 </div>
@@ -63,7 +70,7 @@ export default function BasicTable() {
               <TableCell className='table-cell'>{row.price}</TableCell>
               <TableCell className='table-cell'>
               <div className='cell-wrapper'>
-                    <img src={Avatar2} alt='cell-avatar' className='cell-image' />
+                    <img src={Avatar2} alt='cell-avatar' className='cell-image2' />
                     {row.offer}
                 </div>
               </TableCell>

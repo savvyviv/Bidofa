@@ -11,7 +11,7 @@ import Table from './Table';
 
 const Bids = () => {
   return (
-    <>
+    <div className='section'>
       <div className="logo">
           <ul>
             <li className="list"><Link to="/" className="list-item">Marketplace</Link></li>
@@ -28,7 +28,7 @@ const Bids = () => {
             </li>
           </ul>
       </div>
-      <div>
+      <div className='bids'>
         <h3>Bids</h3>
         <div className='sub-header'>
           <p>Welcome Bids Page</p>
@@ -92,7 +92,7 @@ const Bids = () => {
         </div>
         <Table/>
       </div>
-    </>
+    </div>
   )
 }
 
