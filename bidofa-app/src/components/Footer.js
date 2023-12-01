@@ -54,7 +54,7 @@ function Footer () {
             <div className="row">
               <div className="col-sm-4 col-xs-12">
                 <div className="copyright">
-                  <h6>Copyright 2022 Jaja, All rights reserved</h6>
+                  <h6>Copyright 2022 Bidofa, All rights reserved</h6>
                 </div>
               </div>
               <div className="col-sm-4 col-xs-12">

@@ -1,5 +1,14 @@
 import React from 'react';
 import './Categories.css';
+import Cloudy from '../marketplace_public/images/cloudy.png';
+import John from '../marketplace_public/images/John.png';
+import Place from '../marketplace_public/images/place.png';
+import Puzzle from '../marketplace_public/images/puzzle.png';
+import Man from '../marketplace_public/images/man.png';
+import Eye from '../marketplace_public/images/eye.png'; 
+
+
+
 
 
 const Categories = () => {
@@ -19,17 +28,17 @@ const Categories = () => {
           
             <div className="col-lg-3">
               <div class="card">
-                <img src="../images/cloudy.png" class="card-img-top" alt="cloudy_face"/>
+                <img src={Cloudy} pub class="card-img-top" alt="cloudy_face"/>
                 <div class="card-body">
                   <h5 class="card-title">Cloudy Photography</h5>
                     <div className="img">
-                     <img className="img-avatar" src="../images/John.png" alt="john"/>
+                     <img className="img-avatar" src = {John} alt="john"/>
                      <div className="row">
                         <div className="column">
                          <div className="text">
                            <p>Created by</p>
-                           <h6>John Wick</h6>
-                           <img src="../images/place.png" alt="place bid"/>
+                           <h5>John Wick</h5>
+                           <img src={Place} alt="place bid"/>
                           </div>
                         </div>
 
@@ -49,17 +58,17 @@ const Categories = () => {
 
             <div className="col-lg-3">
               <div class="card">
-                <img src="../images/puzzle.png" class="card-img-top" alt="cloudy_face"/>
+                <img src={Puzzle} class="card-img-top" alt="cloudy_face"/>
                 <div class="card-body">
                   <h5 class="card-title">Cloudy Photography</h5>
                     <div className="img">
-                     <img className="img-avatar" src="../images/John.png" alt="john"/>
+                     <img className="img-avatar" src={John} alt="john"/>
                      <div className="row">
                         <div className="column">
                          <div>
                            <p>Created by</p>
-                           <h6>John Wick</h6>
-                           <img src="../images/place.png" alt="place bid"/>
+                           <h5>John Wick</h5>
+                           <img src={Place} alt="place bid"/>
                           </div>
                         </div>
                         <div className="column">
@@ -77,17 +86,17 @@ const Categories = () => {
 
             <div className="col-lg-3">
               <div class="card">
-                <img src="../images/man.png" class="card-img-top" alt="cloudy_face"/>
+                <img src={Man} class="card-img-top" alt="cloudy_face"/>
                 <div class="card-body">
                   <h5 class="card-title">Cloudy Photography</h5>
                     <div className="img">
-                     <img className="img-avatar" src="../images/John.png" alt="john"/>
+                     <img className="img-avatar" src={John} alt="john"/>
                      <div className="row">
                         <div className="column">
                          <div>
                            <p>Created by</p>
-                           <h6>John Wick</h6>
-                           <img src="../images/place.png" alt="place bid"/>
+                           <h5>John Wick</h5>
+                           <img src={Place} alt="place bid"/>
                           </div>
                         </div>
                         <div className="column">
@@ -105,17 +114,17 @@ const Categories = () => {
 
             <div className="col-lg-3">
               <div class="card">
-                <img src="../images/eye.png" class="card-img-top" alt="cloudy_face"/>
+                <img src={Eye} class="card-img-top" alt="cloudy_face"/>
                 <div class="card-body">
                   <h5 class="card-title">Cloudy Photography</h5>
                     <div className="img">
-                     <img className="img-avatar" src="../images/John.png" alt="john"/>
+                     <img className="img-avatar" src= {John} alt="john"/>
                      <div className="row">
                         <div className="column">
                          <div>
                            <p>Created by</p>
-                           <h6>John Wick</h6>
-                           <img src="../images/place.png" alt="place bid"/>
+                           <h5>John Wick</h5>
+                           <img src={Place} alt="place bid"/>
                           </div>
                         </div>
                         <div className="column">
@@ -133,17 +142,17 @@ const Categories = () => {
 
             <div className="col-lg-3">
               <div class="card">
-                <img src="../images/eye.png" class="card-img-top" alt="cloudy_face"/>
+                <img src={Man} class="card-img-top" alt="cloudy_face"/>
                 <div class="card-body">
                   <h5 class="card-title">Cloudy Photography</h5>
                     <div className="img">
-                     <img className="img-avatar" src="../images/John.png" alt="john"/>
+                     <img className="img-avatar" src={John} alt="john"/>
                      <div className="row">
                         <div className="column">
                          <div>
                            <p>Created by</p>
-                           <h6>John Wick</h6>
-                           <img src="../images/place.png" alt="place bid"/>
+                           <h5>John Wick</h5>
+                           <img src={Place} alt="place bid"/>
                           </div>
                         </div>
                         <div className="column">
@@ -161,17 +170,17 @@ const Categories = () => {
 
             <div className="col-lg-3">
               <div class="card">
-                <img src="../images/cloudy.png" class="card-img-top" alt="cloudy_face"/>
+                <img src={Cloudy} class="card-img-top" alt="cloudy_face"/>
                 <div class="card-body">
                   <h5 class="card-title">Cloudy Photography</h5>
                     <div className="img">
-                     <img className="img-avatar" src="../images/John.png" alt="john"/>
+                     <img className="img-avatar" src={John} alt="john"/>
                      <div className="row">
                         <div className="column">
                          <div>
                            <p>Created by</p>
-                           <h6>John Wick</h6>
-                           <img src="../images/place.png" alt="place bid"/>
+                           <h5>John Wick</h5>
+                           <img src={Place} alt="place bid"/>
                           </div>
                         </div>
                         <div className="column">
@@ -189,17 +198,17 @@ const Categories = () => {
 
             <div className="col-lg-3">
               <div class="card">
-                <img src="../images/man.png" class="card-img-top" alt="cloudy_face"/>
+                <img src={Eye} class="card-img-top" alt="cloudy_face"/>
                 <div class="card-body">
                   <h5 class="card-title">Cloudy Photography</h5>
                     <div className="img">
-                     <img className="img-avatar" src="../images/John.png" alt="john"/>
+                     <img className="img-avatar" src={John} alt="john"/>
                      <div className="row">
                         <div className="column">
                          <div>
                            <p>Created by</p>
-                           <h6>John Wick</h6>
-                           <img src="../images/place.png" alt="place bid"/>
+                           <h5>John Wick</h5>
+                           <img src={Place} alt="place bid"/>
                           </div>
                         </div>
                         <div className="column">
@@ -217,17 +226,17 @@ const Categories = () => {
 
             <div className="col-lg-3">
               <div class="card">
-                <img src="../images/puzzle.png" class="card-img-top" alt="cloudy_face"/>
+                <img src={Puzzle} class="card-img-top" alt="cloudy_face"/>
                 <div class="card-body">
                   <h5 class="card-title">Cloudy Photography</h5>
                     <div className="img">
-                     <img className="img-avatar" src="../images/John.png" alt="john"/>
+                     <img className="img-avatar" src={John} alt="john"/>
                      <div className="row">
                         <div className="column">
                          <div>
                            <p>Created by</p>
-                           <h6>John Wick</h6>
-                           <img src="../images/place.png" alt="place bid"/>
+                           <h5>John Wick</h5>
+                           <img src={Place} alt="place bid"/>
                           </div>
                         </div>
                         <div className="column">
@@ -245,17 +254,17 @@ const Categories = () => {
 
             <div className="col-lg-3">
               <div class="card">
-                <img src="../images/puzzle.png" class="card-img-top" alt="cloudy_face"/>
+                <img src={Eye} class="card-img-top" alt="cloudy_face"/>
                 <div class="card-body">
                   <h5 class="card-title">Cloudy Photography</h5>
                     <div className="img">
-                     <img className="img-avatar" src="../images/John.png" alt="john"/>
+                     <img className="img-avatar" src={John} alt="john"/>
                      <div className="row">
                         <div className="column">
                          <div>
                            <p>Created by</p>
-                           <h6>John Wick</h6>
-                           <img src="../images/place.png" alt="place bid"/>
+                           <h5>John Wick</h5>
+                           <img src={Place} alt="place bid"/>
                           </div>
                         </div>
                         <div className="column">
@@ -273,17 +282,17 @@ const Categories = () => {
 
             <div className="col-lg-3">
               <div class="card">
-                <img src="../images/man.png" class="card-img-top" alt="cloudy_face"/>
+                <img src={Man} class="card-img-top" alt="cloudy_face"/>
                 <div class="card-body">
                   <h5 class="card-title">Cloudy Photography</h5>
                     <div className="img">
-                     <img className="img-avatar" src="../images/John.png" alt="john"/>
+                     <img className="img-avatar" src={John} alt="john"/>
                      <div className="row">
                         <div className="column">
                          <div>
                            <p>Created by</p>
-                           <h6>John Wick</h6>
-                           <img src="../images/place.png" alt="place bid"/>
+                           <h5>John Wick</h5>
+                           <img src={Place} alt="place bid"/>
                           </div>
                         </div>
                         <div className="column">
@@ -300,17 +309,17 @@ const Categories = () => {
             </div>
             <div className="col-lg-3">
               <div class="card">
-                <img src="../images/eye.png" class="card-img-top" alt="cloudy_face"/>
+                <img src={Puzzle} class="card-img-top" alt="cloudy_face"/>
                 <div class="card-body">
                   <h5 class="card-title">Cloudy Photography</h5>
                     <div className="img">
-                     <img className="img-avatar" src="../images/John.png" alt="john"/>
+                     <img className="img-avatar" src={John} alt="john"/>
                      <div className="row">
                         <div className="column">
                          <div>
                            <p>Created by</p>
-                           <h6>John Wick</h6>
-                           <img src="../images/place.png" alt="place bid"/>
+                           <h5>John Wick</h5>
+                           <img src={Place} alt="place bid"/>
                           </div>
                         </div>
                         <div className="column">
@@ -328,17 +337,17 @@ const Categories = () => {
 
             <div className="col-lg-3">
               <div class="card">
-                <img src="../images/cloudy.png" class="card-img-top" alt="cloudy_face"/>
+                <img src={Cloudy} class="card-img-top" alt="cloudy_face"/>
                 <div class="card-body">
                   <h5 class="card-title">Cloudy Photography</h5>
                     <div className="img">
-                     <img className="img-avatar" src="../images/John.png" alt="john"/>
+                     <img className="img-avatar" src={John} alt="john"/>
                      <div className="row">
                         <div className="column">
                          <div>
                            <p>Created by</p>
-                           <h6>John Wick</h6>
-                           <img src="../images/place.png" alt="place bid"/>
+                           <h5>John Wick</h5>
+                           <img src={Place} alt="place bid"/>
                           </div>
                         </div>
                         <div className="column">
