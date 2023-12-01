@@ -21,6 +21,35 @@ function Navbar() {
     window.addEventListener("scroll", changeBg)
 
 
+
+    let [account, setAccount] = useState("");
+    let[isConnected, setIsConnected] = useState(false);
+
+  const{ ethereum } = window;
+  const connectMetamask = async () => {
+    if (window.ethereum !== "undefined") {
+        try {
+        const accounts = await ethereum.request({method: "eth_requestAccounts"});
+        setAccount(accounts[0]);
+        setIsConnected(true);
+        }
+        catch (error) {
+            console.error("Error connecting Metamask:", error);
+        }
+    }
+        else {
+            console.warn("Metamask not available"); 
+        }
+    }
+
+  
+  const disconnectMetamask  = () => {
+    setAccount("")
+    setIsConnected(false);
+      }
+
+
+
     return (
     <>
       <nav className='navbar'>
@@ -53,7 +82,12 @@ function Navbar() {
                 <div className='navbar-user'>
                     <li className='usrs'>
                         <Link to="/" onClick={closeMobilemenu}>
-                            <span className="btn-grad" role="button">Connect Wallet</span>
+                        <p>{account}</p>
+                            {isConnected ? (
+                            <span className="btn-grad" role="button"onClick={disconnectMetamask}>Disconnect Wallet</span>
+                            ) : (
+                            <span className="btn-grad" role="button"onClick={connectMetamask}>Connect Wallet</span>)}
+
                         </Link>
                     </li>
                     <li className='usrs'>
