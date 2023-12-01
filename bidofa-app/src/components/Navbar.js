@@ -10,7 +10,7 @@ function Navbar() {
     const handleClick = () => setClick(!click);
     const closeMobilemenu = () => setClick(false);
 
-    const [navbarContainer, setNavbar] = useState(false);
+   {/*} const [navbarContainer, setNavbar] = useState(false);
     const changeBg = () => {
         if (window.scrollY >= 100) {
             setNavbar(true);
@@ -18,14 +18,43 @@ function Navbar() {
             setNavbar (false);
         }
     };
-    window.addEventListener("scroll", changeBg)
+window.addEventListener("scroll", changeBg) */}
+
+
+
+    let [account, setAccount] = useState("");
+    let[isConnected, setIsConnected] = useState(false);
+
+  const{ ethereum } = window;
+  const connectMetamask = async () => {
+    if (window.ethereum !== "undefined") {
+        try {
+        const accounts = await ethereum.request({method: "eth_requestAccounts"});
+        setAccount(accounts[0]);
+        setIsConnected(true);
+        }
+        catch (error) {
+            console.error("Error connecting Metamask:", error);
+        }
+    }
+        else {
+            console.warn("Metamask not available"); 
+        }
+    }
+
+  
+  const disconnectMetamask  = () => {
+    setAccount("")
+    setIsConnected(false);
+      }
+
 
 
     return (
     <>
       <nav className='navbar'>
-        <div className= {navbarContainer ? "navbarContainer scroll navba-expand-sm fixed-top":
-        "navbarContainer navba-expand-sm fixed-top"}>
+        <div className= 'navbar-container'> {/*{navbarContainer ? "navbarContainer scroll navba-expand-sm fixed-top":
+        "navbarContainer navba-expand-sm fixed-top"}>*/}
            <Link to="/" className='navbar-logo' onClick={closeMobilemenu}>
                 <img src={Logo} alt="Logo" />
            </Link>
@@ -36,7 +65,7 @@ function Navbar() {
 
            <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                 <li className='nav-item'>
-                    <Link to='/' className='nav-links' onClick={closeMobilemenu}>
+                    <Link to='/Marketplace' className='nav-links' onClick={closeMobilemenu}>
                        Marketplace
                     </Link>
                 </li>
@@ -53,7 +82,12 @@ function Navbar() {
                 <div className='navbar-user'>
                     <li className='usrs'>
                         <Link to="/" onClick={closeMobilemenu}>
-                            <span className="btn-grad" role="button">Connect Wallet</span>
+                        <p>{account}</p>
+                            {isConnected ? (
+                            <span className="btn-grad" role="button"onClick={disconnectMetamask}>Disconnect Wallet</span>
+                            ) : (
+                            <span className="btn-grad" role="button"onClick={connectMetamask}>Connect Wallet</span>)}
+
                         </Link>
                     </li>
                     <li className='usrs'>

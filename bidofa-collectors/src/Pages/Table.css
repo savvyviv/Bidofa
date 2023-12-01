@@ -1,0 +1,20 @@
+.cell-auction {
+    background-color: black;
+}
+
+.table {
+    background: linear-gradient( #2f245e 51.85%, #1D1932 98.5%);
+    border: none;
+    color: white;
+}
+
+.table-cell {
+    color: white !important;
+}
+
+.cell-wrapper {
+    color: white;
+    display: flex;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}

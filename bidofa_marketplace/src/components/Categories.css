@@ -25,8 +25,8 @@
     margin-left: 10px;
 }
 .card {
-    width: 316px;
-    height: 595px;
+    width: 320px;
+    height: 580px;
     margin-top: 80px;
     margin-left: 25px;
     background-color: rgba(255, 255, 255, 0.15)
@@ -37,8 +37,13 @@
     height: 310px;
 }
 
+.card-title {
+    padding-top: 20px;
+}
+
 .card-body {
     color: white;
+    padding: 5px;
 }
 
 .img-avatar {
@@ -46,22 +51,39 @@
     width: 68px;
     border-radius: 68px;
     float: left;
+    padding: 0;
 }
 
-.img {
-    width: 100%;
-    
 
+.place-bid {
+    width: 140px;
+    padding-top: 5px;
+}
+
+.place-bid-text {
+    padding-top: 10px;
+    padding-left: 20px;
 }
 
 .text {
-    float: right;
+    /*float: right;*/
+    word-spacing: 10px;
+    font-size: 14px;
+    padding: 0px;
+    align-items: start;
+    
+}
+
+.text h6 {
+    font-size: 14px;
+    text-align: left;
 }
 .row {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
     width: 100%;
+    text-align: left;
 }
 
 .column {
@@ -69,8 +91,16 @@
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
+    
 }
 
+.column p {
+    font-size: 14px;
+}
+
+.bid h6 {
+    font-size: 14px;
+}
 .btn1 {
     display: flex;
     width: 140px;
@@ -83,4 +113,3 @@
     background: var(--secondary-color, #6F4FF2);
     color: white;
 }
-

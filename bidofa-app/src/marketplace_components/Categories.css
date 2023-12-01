@@ -1,0 +1,86 @@
+.section {
+    background: linear-gradient(166deg, #6F4FF2 2.18%, #43328C 14.73%, #2D2357 51.85%, #1D1932 98.5%);
+    height: 2400px;
+    padding-left: 0;
+    width: 1440px;
+}
+
+.hero-image {
+    width: 1440px;
+    margin-right: 900px;
+}
+
+.btn_group {
+    height: 100x;
+
+}
+
+.btn {
+    border-radius: 8px;
+    background: var(--secondary-color, #6F4FF2);
+    width: 229px;
+    height: 54px;
+    margin-top: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.card {
+    width: 316px;
+    height: 595px;
+    margin-top: 80px;
+    margin-left: 25px;
+    background-color: rgba(255, 255, 255, 0.15)
+}
+
+.card_img_top {
+    width: 282px;
+    height: 310px;
+}
+
+.card-body {
+    color: white;
+}
+
+.img-avatar {
+    height: 68px;
+    width: 68px;
+    border-radius: 68px;
+    float: left;
+}
+
+.img {
+    width: 100%;
+    
+
+}
+
+.text {
+    float: right;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.btn1 {
+    display: flex;
+    width: 140px;
+    height: 44px;
+    padding: 12px 45px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: var(--secondary-color, #6F4FF2);
+    color: white;
+}
+
