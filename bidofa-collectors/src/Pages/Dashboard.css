@@ -1,0 +1,74 @@
+.logo {
+  /*background-color: #1d0f52;*/
+  background-image: url(../components/images/sidebar.png);
+  width: 1200px;
+  height: 100px;
+  padding-bottom: 40px;
+  padding-top:  20px;
+  flex: 1;
+}
+
+.list {
+    list-style: none;
+    display: inline-block;
+    justify-content: space-between;
+    text-decoration: none;
+    padding-top: 10px;
+  }
+
+  .list-item {
+    text-decoration: none;
+    color: Black;
+    display: inline-block;
+    justify-content: space-between;
+    padding-left: 80px;
+    word-spacing: 5px;
+    flex: 1;
+
+    color: white;
+    font-family: 'Kanit', sans-serif;;
+  }
+
+  .action_btn {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-left: 150px;
+    height: 57px;
+    width: 200px;
+    text-align: center;
+    /*padding-bottom: 5px;*/
+    padding-top: 10px;
+    font-size: 20px;
+    background: linear-gradient(to right, #FF3838 -10%, #6F4FF2 50%, #6F4FF2 -50%) padding-box,
+    linear-gradient(70deg, #FF3838, #6F4FF2) border-box;
+    
+  }
+
+  .action_btn1 {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    margin-left: 20px;
+    padding-top: 10px;
+    /*padding-bottom: 5px;*/
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+  
+   /* padding-left: 10px;
+    padding-right: 10px;*/
+    background-color: rgba(111, 79, 242, 1);
+    width: 200px;
+    height: 57px;
+  }
+  .action_btn1:hover {
+    color: blueviolet;
+  }
+  
+  .action_btn:hover {
+    color: blueviolet;
+  }

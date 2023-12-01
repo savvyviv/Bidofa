@@ -1,60 +1,46 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import Logo from "./asset/logo.png";
 
 
-function Navbar()  {
-  const [click, setClick] = useState(false);
 
-  const handleClick = () => setClick(!click);
-  const closeMobilemenu = () => setClick(false)
+function Navbar()  {
+
 
   return (
     <>
-    <nav className="navbar">
-      <div className="navbar-container">
-        <Link to="/" className="navbar-logo" onclick={closeMobilemenu}>
-          <img src={Logo} alt="logo" />
-        </Link>
-
-        <div className="menu-icon" onClick={handleClick}>
-          <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-        </div>
-
-        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-          <li className="nav-item">
-            <Link to="/" className="nav-links" onClick={closeMobilemenu}>
-              Marketplace
-            </Link>
+    <div className="header">
+      <div className="navbar">
+        <div className="logo">
+          <ul>
+          <li className="list"><img className="logo_img" src={Logo} alt="logo"/></li>
+          <li className="list"><Link to="/" className="list-item">Marketplace</Link></li>
+          <li className="list"><Link to="/" className="list-item">Learn</Link></li>
+          <li className="list"><Link to="/" className="list-item">FAQs</Link></li>
+          <li className="list">
+            <Link to="/" className="action_btn">Connect Wallet</Link>
           </li>
-          <li className="nav-item">
-            <Link to="/" className="nav-links" onClick={closeMobilemenu}>
-              Learn
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/" className="nav-links" onClick={closeMobilemenu}>
-              FAQs
-            </Link>
-          </li>
-          <div className="navbar-user">
-            <li className="users">
-              <Link to="/" onClick={closeMobilemenu}>
-                <span className="btn-grad" role="button">Connect Wallet</span>
-              </Link>
-            </li>
-            <li className="users">
-              <Link to="/" onClick={closeMobilemenu}>
-                <span className="btn-grad" role="button">Contact</span>
-              </Link>
-            </li>
+          <li className="list">
+          <Link to="/" className="action_btn1">Contact</Link>
+          <div className="toggle_btn">
+            <i className="fa-solid fa-bars"></i>
           </div>
-        </ul>
+          </li>
+          </ul>
+        </div>
+        <div className="dropdown_menu">
+        <li className="menu_item"><Link to="/" className="menu_items">Marketplace</Link></li>
+          <li className="menu_item" ><Link to="/" className="menu_items">Learn</Link></li>
+          <li className="menu_item"><Link to="/" className="menu_items" >FAQs</Link></li>
+          <li className="menu_item"><Link to="/" className="menu_items">Connect Wallet</Link></li>
+          <li className="menu_item"><Link to="/" className="menu_items">Contact</Link></li>
       </div>
-    </nav>
+        <div className="marketplace">Marketplace</div>
+      </div>
+    </div>
 
-      
+
     </>
   )
 }
