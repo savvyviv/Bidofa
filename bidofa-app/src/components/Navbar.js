@@ -53,8 +53,8 @@ window.addEventListener("scroll", changeBg) */}
     return (
     <>
       <nav className='navbar'>
-        <div className= {navbarContainer ? "navbarContainer scroll navba-expand-sm fixed-top":
-        "navbarContainer navba-expand-sm fixed-top"}>
+        <div className= 'navbar-container'> {/*{navbarContainer ? "navbarContainer scroll navba-expand-sm fixed-top":
+        "navbarContainer navba-expand-sm fixed-top"}>*/}
            <Link to="/" className='navbar-logo' onClick={closeMobilemenu}>
                 <img src={Logo} alt="Logo" />
            </Link>
