@@ -10,7 +10,7 @@ function Navbar() {
     const handleClick = () => setClick(!click);
     const closeMobilemenu = () => setClick(false);
 
-    const [navbarContainer, setNavbar] = useState(false);
+   {/*} const [navbarContainer, setNavbar] = useState(false);
     const changeBg = () => {
         if (window.scrollY >= 100) {
             setNavbar(true);
@@ -18,7 +18,7 @@ function Navbar() {
             setNavbar (false);
         }
     };
-    window.addEventListener("scroll", changeBg)
+window.addEventListener("scroll", changeBg) */}
 
 
 
