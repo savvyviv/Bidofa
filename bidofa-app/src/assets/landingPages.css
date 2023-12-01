@@ -1,14 +1,14 @@
 @import url('https://fonts.cdnfonts.com/css/orbitron');
 @import url('https://fonts.cdnfonts.com/css/kanit');
 
-.hero-background {
-    background-image: url('../images/hero-background.jpg');
+.main {
+    background-image: url('../images/homepage.png');
     height: 100%;
 
 }
 
 .feature-background {
-    background-image: url('../images/featuregg.jpg');
+    background-color: transparent;
     height: 100%;
 }
 
@@ -42,6 +42,13 @@
 .feature-section {
     padding: 60px;
     margin-top: 30px;
+
+}
+
+.footer-section {
+    padding: 30px 60px;
+    background-color: #3C3560;
+    color: #fff;
 }
 
 .feature-section-two {
@@ -81,6 +88,22 @@ button {
     color: #fff;
 }
 
+.button-news {
+    background: #6F4FF2;
+    text-decoration: inherit;
+    font-family: system-ui;
+    font-size: 20px;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.join-section {
+    text-align: center;
+}
+
 .button2 {
     background: transparent;
     text-decoration: inherit;
@@ -90,6 +113,17 @@ button {
     border: 2px solid #6F4FF2;
     border-radius: 50px;
     color: #fff;
+}
+
+.tdp {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 2%;
+    color: #fff;
+    text-align: left;
+    margin-top: -40px;
 }
 
 .button3 {
@@ -151,6 +185,16 @@ button {
     color: #fff;
 }
 
+.blockchan-text {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 40px;
+    letter-spacing: 2%;
+    text-align: left;
+    color: #fff;
+}
+
 .h-pd{
     margin-left: 60px;
     margin-right: 60px;
@@ -196,6 +240,20 @@ button {
     margin-top: 10px;
 }
 
+.newsletter-p {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 420;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 2%;
+    color: #e9e6e6;
+    margin-top: 30px;
+}
+
+.top-sell{
+    margin-top: 30px;
+}
+
 .card-p2 {
     font-family: 'Kanit', sans-serif;
     font-weight: 500;
@@ -218,7 +276,7 @@ button {
     background-size: 200% auto;
     color: white;            
     display: block;
-    border: 6px solid transparent;
+    border: 2px solid transparent;
     /* border-image: linear-gradient(#FF3838, #6F4FF2) 30;
     border-width: 4px; */
     border-radius: 10px;
@@ -227,7 +285,7 @@ button {
 .btn-grad2 {
     background-color: #6F4FF2;
     margin: 10px;
-    padding: 15px 35px;
+    padding: 12px 35px;
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
@@ -272,6 +330,27 @@ button {
    padding-bottom: 30px;
 }
 
+.blockchain-bg {
+    background-image: url('../images/Learnbg.png');
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.blockchain-bg img {
+    max-width: 450px;
+    width: 100%;
+}
+
+.img-align {
+    text-align: center;
+}
+
+.txt-img {
+    float: left;
+    margin-top: 100px;
+    text-align: left;
+}
+
 .container {
     max-width: 100%!important;
 }
@@ -305,6 +384,27 @@ button {
 .metamask-li {
     justify-self: start;
     margin-right: 360px;
+}
+
+.top-seller {
+    margin-right: 80px;
+    color: #fff;
+    display: inline-block;
+}
+
+.top-seller2 {
+    margin-right: 90px;
+    color: #fff;
+    display: inline-block;
+}
+
+.spn-text {
+    padding-top: 20px!important;
+}
+
+.img-float {
+    float: left;
+    margin-right: 5px;
 }
 
 .trend-span {
@@ -398,6 +498,22 @@ button {
         margin: 20px auto;
     }
 
+    .blockchain-bg img {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .txt-img {
+        float: left;
+        margin-top: 30px;
+        text-align: left;
+    }
+
+    .footer-section {
+        padding: 30px 20px;
+        background-color: #3C3560;
+        color: #fff;
+    }
 }
 
 @media screen and (min-width: 961px) and (max-width: 1024px) { 
@@ -474,6 +590,26 @@ button {
         max-width: 400px;
         width: 100%;
     }
+
+    .top-seller {
+        margin-right: 80px;
+        margin-top: 20px;
+        color: #fff;
+        display: inline-block;
+    }
+    
+    .top-seller2 {
+        margin-right: 90px;
+        margin-top: 20px;
+        color: #fff;
+        display: inline-block;
+    }
+
+    .txt-img {
+        float: left;
+        margin-top: 60px;
+        text-align: left;
+    }
 }
 
 @media screen and (min-width: 700px) and (max-width: 800px) { 
@@ -542,6 +678,20 @@ button {
     .feature-section-two {
         padding: 10px;
         margin-top: 30px;
+    }
+
+    .top-seller {
+        margin-right: 60px;
+        margin-top: 20px;
+        color: #fff;
+        display: inline-block;
+    }
+    
+    .top-seller2 {
+        margin-right: 70px;
+        margin-top: 20px;
+        color: #fff;
+        display: inline-block;
     }
 }
 
